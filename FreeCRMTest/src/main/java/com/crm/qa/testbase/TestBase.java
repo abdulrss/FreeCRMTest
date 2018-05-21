@@ -23,7 +23,9 @@ public class TestBase {
 		try {
 			
 		prop = new Properties();
-		FileInputStream ip = new FileInputStream("C:\\Automation Test\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+		//FileInputStream ip = new FileInputStream("C:/Automation Test/GitHubFreeCRMTest/src/main/java/com/crm/qa/config/config.properties");
+		FileInputStream ip = new FileInputStream("C:\\Automation Test\\GitHub\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+		
 		
 		prop.load(ip);
 		

@@ -10,10 +10,10 @@ public class LogInPage extends TestBase{
 
 	//Page Factory - OR
 	
-	@FindBy(name="username") WebElement username;
-	@FindBy(name="password") WebElement password;
+	@FindBy(name="username") public static WebElement username;
+	@FindBy(name="password") public static WebElement password;
 	
-	@FindBy(xpath="input[@type='submit']") WebElement submitBtn;
+	@FindBy(xpath="input[@type='submit']") public static WebElement submitBtn;
 	
 	
 	//Below is the page constructor for class LogInPage which is used to initialise all the elements in this class
